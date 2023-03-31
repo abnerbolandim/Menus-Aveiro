@@ -123,6 +123,14 @@ nav.navbar-transparente {
 
 /* ------------------------------- */
 
+.img-linha {
+	padding-top: 30px;
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+}
+
+/* -------------------------------- */
 .pratos-title1 {
 	text-align: center;
 	margin: 5px;
@@ -142,7 +150,7 @@ nav.navbar-transparente {
 }
 
 .pratos-title2 {
-	padding-top: 120px;
+	padding-top: 90px;
 	text-align: center;
 	margin: 5px;
 	font-size: 39px;
