@@ -267,6 +267,15 @@ section p {
 	align-items: center;
 }
 
+#about-us .btn-white:hover {
+	border-radius: 40px;
+	color: white;
+	background-color: #131313;
+	align-items: center;
+	transition: 0.3s;
+	transform: scale(1.05);
+}
+
 #about-us .font .section-title1 {
 	margin-top: 30px;
 	font-size: 22px;
@@ -284,7 +293,7 @@ section p {
 
 #about-us .font .section-title2 {
 	font-size: 15px;
-	margin-bottom: 20px; /* distância entre os elementos */
+	margin-bottom: 10px; /* distância entre os elementos */
 }
 
 #about-us .informacao {
@@ -292,6 +301,16 @@ section p {
 	margin-bottom: 50px;
 	max-width: 100%;
 	height: 60%;
+}
+
+a .informacao:hover {
+	margin-top: 20px;
+	margin-bottom: 50px;
+	max-width: 100%;
+	height: 60%;
+
+	transition: 0.3s;
+	transform: scale(1.05);
 }
 
 @media (max-width: 1110px) {
