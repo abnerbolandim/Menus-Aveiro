@@ -123,7 +123,7 @@ nav.navbar-transparente {
 
 /* ------------------------------- */
 
-.pratos-title {
+.pratos-title1 {
 	text-align: center;
 	margin: 5px;
 	font-size: 39px;
@@ -133,7 +133,26 @@ nav.navbar-transparente {
 	color: #001427;
 }
 
-.pratos-subtitle {
+.pratos-subtitle1 {
+	text-align: center;
+	padding-bottom: 20px;
+	font-size: 15px;
+	color: #001427;
+	font-weight: lighter;
+}
+
+.pratos-title2 {
+	padding-top: 120px;
+	text-align: center;
+	margin: 5px;
+	font-size: 39px;
+	font-family: Roboto, sans-serif;
+	font-weight: 700;
+	letter-spacing: -1.5px;
+	color: #001427;
+}
+
+.pratos-subtitle2 {
 	text-align: center;
 	padding-bottom: 20px;
 	font-size: 15px;
@@ -151,7 +170,7 @@ section p {
 }
 
 #about .section-title1 {
-	margin-top: 10px;
+	margin-top: 30px;
 	margin-bottom: 10px;
 	font-size: 15px;
 	font-weight: 800;
@@ -172,7 +191,7 @@ section p {
 }
 
 .informacao img {
-	height: 800px;
+	height: 650px;
 	width: 100%;
 	border-radius: 50px;
 	object-fit: cover;
