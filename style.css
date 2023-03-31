@@ -67,7 +67,7 @@ nav.navbar-transparente {
 
 .color-image {
 	background-color: rgba(0, 0, 0, 0.5);
-	height: 65vh;
+	height: 70vh;
 	background-color: #98e54c;
 	background-size: cover;
 	background-position: center;
@@ -148,4 +148,65 @@ section h2 {
 section p {
 	font-size: 1.2em;
 	line-height: 1.5em;
+}
+
+#about .section-title1 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 15px;
+	font-weight: 800;
+	text-align: left;
+	letter-spacing: -0.3px;
+}
+#about .section-title2 {
+	font-size: 15px;
+	font-weight: 200;
+	text-align: left;
+	letter-spacing: -0.8px;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.informacao img {
+	height: 800px;
+	width: 100%;
+	border-radius: 50px;
+	object-fit: cover;
+}
+
+.img-container {
+	height: 500px;
+	position: relative;
+	overflow: hidden;
+}
+
+.informacao p {
+	text-align: center;
+	font-size: 17px;
+	margin-top: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+@media (max-width: 992px) {
+	.informacao {
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 768px) {
+	.informacao {
+		margin: 0px 10px 30px;
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 576px) {
+	.informacao {
+		max-width: 100%;
+	}
 }
