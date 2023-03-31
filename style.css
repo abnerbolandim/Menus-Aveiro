@@ -1,0 +1,151 @@
+html,
+body,
+#home {
+	height: 100%;
+	overflow-x: hidden;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f8f4ec;
+}
+
+nav {
+	background-color: #f8f4ec;
+}
+
+.navbar-collapse {
+	display: none;
+}
+
+.navbar-collapse.show {
+	display: block;
+}
+
+nav.navbar-transparente {
+	padding: 15px 0px;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: black;
+}
+
+.navbar-light .navbar-nav .nav-contato {
+	color: #70db86;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #1a682a;
+	transition: 0.3s;
+	transform: scale(1.1);
+}
+
+.navbar-light .navbar-nav .nav-contato:hover {
+	color: #1ad03f;
+	transition: 0.3s;
+	transform: scale(1.1);
+}
+
+.navbar-light .navbar-toggler {
+	color: black;
+	border-color: black;
+}
+
+.divisor {
+	width: 1px;
+	background: rgb(0, 0, 0);
+	margin: 12px 30px;
+}
+
+/* ------------------------------- */
+
+.number {
+	position: relative;
+	height: 600px;
+}
+
+.color-image {
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 65vh;
+	background-color: #98e54c;
+	background-size: cover;
+	background-position: center;
+
+	margin-top: -50px;
+}
+
+.content {
+	border-radius: 20px;
+	background-color: white;
+	padding: 60px 95px 60px 95px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: black;
+}
+
+.number-title1 {
+	font-size: 30px;
+	margin-bottom: 16px;
+	font-weight: 700;
+	color: black;
+	letter-spacing: -1px;
+}
+
+.number-title2 {
+	font-size: 15px;
+	margin-bottom: 25px;
+	font-weight: 700;
+	color: black;
+	letter-spacing: -0.5px;
+}
+
+.btn-number {
+	width: 295px;
+	height: 50px;
+	background-color: #41b343;
+	color: #fff;
+	border-color: #85e981;
+	position: relative;
+	border-radius: 20px;
+	font-weight: lighter;
+	font-size: 22px;
+}
+
+.btn-number:hover {
+	color: #f8f4ec;
+	transition: 0.2s ease-in-out;
+	transform: scale(1.08);
+}
+
+/* ------------------------------- */
+
+.pratos-title {
+	text-align: center;
+	margin: 5px;
+	font-size: 39px;
+	font-family: Roboto, sans-serif;
+	font-weight: 700;
+	letter-spacing: -1.5px;
+	color: #001427;
+}
+
+.pratos-subtitle {
+	text-align: center;
+	padding-bottom: 20px;
+	font-size: 15px;
+	color: #001427;
+	font-weight: lighter;
+}
+
+section h2 {
+	margin: 0 0 30px;
+}
+
+section p {
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
