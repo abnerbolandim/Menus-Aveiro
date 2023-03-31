@@ -269,11 +269,22 @@ section p {
 
 #about-us .font .section-title1 {
 	margin-top: 30px;
-	font-size: 20px;
+	font-size: 22px;
+	font-weight: 600;
+	letter-spacing: -0.5px;
+}
+
+.email {
+	padding-bottom: 30px; /* distância entre o email e o texto RESTAURANTE */
+}
+
+.restaurante {
+	padding-bottom: 30px;
 }
 
 #about-us .font .section-title2 {
 	font-size: 15px;
+	margin-bottom: 20px; /* distância entre os elementos */
 }
 
 #about-us .informacao {
