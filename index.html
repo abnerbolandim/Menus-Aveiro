@@ -4,23 +4,30 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title></title>
+		<title>Aveiro: Refeições e Diversos</title>
 
+		<!-- jQuery -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script
+			src="https://code.jquery.com/jquery-3.6.0.min.js"
+			integrity="sha384-HaIBY9wuX1+c+aE8eVFs+A5HRBGRD6Hf5kc5E8CnXuJnKpePIBmGQRz/06W2Pjwv"
+			crossorigin="anonymous"
+		></script>
 
+		<!-- Bootstrap CSS -->
 		<link
 			rel="stylesheet"
 			type="text/css"
 			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
 		/>
 
+		<!-- Font Awesome CSS -->
 		<link
 			rel="stylesheet"
 			href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
 			integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
 			crossorigin="anonymous"
 		/>
-
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
@@ -28,13 +35,30 @@
 			crossorigin="anonymous"
 			referrerpolicy="no-referrer"
 		/>
-
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
 		/>
 
+		<!-- Bootstrap JS -->
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 		<link rel="stylesheet" href="style.css" />
+
+		<link rel="icon" href="images/logo.svg" />
+
+		<script>
+			$(function () {
+				var navbar = $(".navbar-collapse");
+				var width = $(window).width();
+				$(window).on("resize", function () {
+					if ($(this).width() != width) {
+						width = $(this).width();
+						navbar.collapse("hide");
+					}
+				});
+			});
+		</script>
 	</head>
 	<body>
 		<header>
@@ -61,7 +85,7 @@
 								<a href="index.html" class="nav-link">Início</a>
 							</li>
 							<li class="nav-item">
-								<a href="#about" class="nav-link">Sobre nós</a>
+								<a href="#about-us" class="nav-link">Sobre nós</a>
 							</li>
 
 							<li class="nav-item divisor"></li>
@@ -389,13 +413,17 @@
 						</div>
 					</div>
 					<div class="font col-md-6">
-						<h2 class="section-title1 col">E-MAIL</h2>
+						<h2 class="section-title1 col">
+							<i class="fas fa-share"></i> E-MAIL
+						</h2>
 						<h2 class="section-title2 col">
 							Nossa simpática equipe está para ajudar.
 						</h2>
 						<h2 class="section-title2 col email">email@email.com</h2>
 
-						<h2 class="section-title1 col">RESTAURANTE</h2>
+						<h2 class="section-title1 col">
+							<i class="fas fa-location-arrow"></i> RESTAURANTE
+						</h2>
 						<h2 class="section-title2 col">
 							Venha nos visitar, estaremos de portas abertas.
 						</h2>
@@ -403,7 +431,9 @@
 							120, Rua da Amizade, Aveiro, AV 00000-0000
 						</h2>
 
-						<h2 class="section-title1 col">TELEFONE</h2>
+						<h2 class="section-title1 col">
+							<i class="fas fa-phone fa-rotate-90"></i> TELEFONE
+						</h2>
 						<h2 class="section-title2 col">Seg a Sex das 8h ás 17h</h2>
 						<h2 class="section-title2 col restaurante">+55 (19) 00000-0000</h2>
 					</div>
