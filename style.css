@@ -67,13 +67,17 @@ nav.navbar-transparente {
 
 .color-image {
 	background-color: rgba(0, 0, 0, 0.5);
-	height: 50vh;
+	height: 555px;
 	background-color: #98e54c;
 	background-size: cover;
 	background-position: center;
 
+
+
 	margin-top: -50px;
 }
+
+
 
 .content {
 	border-radius: 20px;
