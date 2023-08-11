@@ -1,4 +1,4 @@
-.pratos-title1 {
+.plate-title1 {
 	text-align: center;
 	margin: 5px;
 	font-size: 39px;
@@ -8,7 +8,7 @@
 	color: #001427;
 }
 
-.pratos-subtitle1 {
+.plate-subtitle1 {
 	text-align: center;
 	padding-bottom: 20px;
 	font-size: 15px;
@@ -16,7 +16,7 @@
 	font-weight: lighter;
 }
 
-.pratos-title2 {
+.plate-title2 {
 	padding-top: 90px;
 	text-align: center;
 	margin: 5px;
@@ -27,7 +27,7 @@
 	color: #001427;
 }
 
-.pratos-subtitle2 {
+.plate-subtitle2 {
 	text-align: center;
 	padding-bottom: 20px;
 	font-size: 15px;

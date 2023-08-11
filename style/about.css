@@ -41,7 +41,7 @@
 	padding-bottom: 30px; /* distância entre o email e o texto RESTAURANTE */
 }
 
-.restaurante {
+.restaurant {
 	padding-bottom: 30px;
 }
 
@@ -50,14 +50,14 @@
 	margin-bottom: 10px; /* distância entre os elementos */
 }
 
-#about-us .informacao {
+#about-us .information {
 	margin-top: 20px;
 	margin-bottom: 50px;
 	max-width: 100%;
 	height: 60%;
 }
 
-a .informacao:hover {
+a .information:hover {
 	margin-top: 20px;
 	margin-bottom: 50px;
 	max-width: 100%;
@@ -68,21 +68,21 @@ a .informacao:hover {
 }
 
 @media (max-width: 1110px) {
-	#about-us .informacao {
+	#about-us .information {
 		max-width: 100%;
 		height: 40%;
 	}
 }
 
 @media (max-width: 768px) {
-	#about-us .informacao {
+	#about-us .information {
 		max-width: 100%;
 		height: 70%;
 	}
 }
 
 @media (max-width: 595px) {
-	#about-us .informacao {
+	#about-us .information {
 		max-width: 100%;
 		height: 50%;
 	}

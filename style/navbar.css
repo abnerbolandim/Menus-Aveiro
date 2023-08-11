@@ -41,7 +41,7 @@ nav.navbar-transparente {
 	transform: scale(1.1);
 }
 
-.navbar-light .navbar-nav .nav-contato:hover {
+.navbar-light .navbar-nav .nav-contact:hover {
 	color: #1ad03f;
 	transition: 0.3s;
 	transform: scale(1.1);
@@ -52,7 +52,7 @@ nav.navbar-transparente {
 	border-color: black;
 }
 
-.divisor {
+.division {
 	width: 1px;
 	background: rgb(0, 0, 0);
 	margin: 12px 30px;
