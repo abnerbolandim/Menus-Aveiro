@@ -1,0 +1,62 @@
+.number {
+	position: relative;
+	height: 600px;
+}
+
+.color-image {
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 555px;
+	background-color: #98e54c;
+	background-size: cover;
+	background-position: center;
+
+
+
+	margin-top: -50px;
+}
+
+.content {
+	border-radius: 20px;
+	background-color: white;
+	padding: 60px 95px 60px 95px;
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: black;
+}
+
+.number-title1 {
+	font-size: 30px;
+	margin-bottom: 16px;
+	font-weight: 700;
+	color: black;
+	letter-spacing: -1px;
+}
+
+.number-title2 {
+	font-size: 15px;
+	margin-bottom: 25px;
+	font-weight: 700;
+	color: black;
+	letter-spacing: -0.5px;
+}
+
+.btn-number {
+	width: 295px;
+	height: 50px;
+	background-color: #41b343;
+	color: #fff;
+	border-color: #85e981;
+	position: relative;
+	border-radius: 20px;
+	font-weight: lighter;
+	font-size: 22px;
+}
+
+.btn-number:hover {
+	color: #f8f4ec;
+	transition: 0.2s ease-in-out;
+	transform: scale(1.08);
+}

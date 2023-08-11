@@ -1,0 +1,59 @@
+html,
+body,
+#home {
+	height: 100%;
+	overflow-x: hidden;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f8f4ec;
+}
+
+nav {
+	background-color: #f8f4ec;
+}
+
+.navbar-collapse {
+	display: none;
+}
+
+.navbar-collapse.show {
+	display: block;
+}
+
+nav.navbar-transparente {
+	padding: 15px 0px;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: black;
+}
+
+.navbar-light .navbar-nav .nav-contato {
+	color: #70db86;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #1a682a;
+	transition: 0.3s;
+	transform: scale(1.1);
+}
+
+.navbar-light .navbar-nav .nav-contato:hover {
+	color: #1ad03f;
+	transition: 0.3s;
+	transform: scale(1.1);
+}
+
+.navbar-light .navbar-toggler {
+	color: black;
+	border-color: black;
+}
+
+.divisor {
+	width: 1px;
+	background: rgb(0, 0, 0);
+	margin: 12px 30px;
+}
