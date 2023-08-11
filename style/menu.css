@@ -69,7 +69,7 @@ section p {
 	margin-bottom: 70px;
 }
 
-.informacao img {
+.information img {
 	height: 650px;
 	width: 100%;
 	border-radius: 50px;
@@ -82,7 +82,7 @@ section p {
 	overflow: hidden;
 }
 
-.informacao p {
+.information p {
 	text-align: center;
 	font-size: 17px;
 	margin-top: 15px;
@@ -91,20 +91,20 @@ section p {
 }
 
 @media (max-width: 992px) {
-	.informacao {
+	.information {
 		margin-bottom: 30px;
 	}
 }
 
 @media (max-width: 768px) {
-	.informacao {
+	.information {
 		margin: 0px 10px 30px;
 		max-width: 100%;
 	}
 }
 
 @media (max-width: 576px) {
-	.informacao {
+	.information {
 		max-width: 100%;
 	}
 }
