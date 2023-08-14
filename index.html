@@ -8,11 +8,8 @@
 
 		<!-- jQuery -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<script
-			src="https://code.jquery.com/jquery-3.6.0.min.js"
-			integrity="sha384-HaIBY9wuX1+c+aE8eVFs+A5HRBGRD6Hf5kc5E8CnXuJnKpePIBmGQRz/06W2Pjwv"
-			crossorigin="anonymous"
-		></script>
+		
+		<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
 
 		<!-- Bootstrap CSS -->
 		<link
@@ -50,12 +47,18 @@
 		<link rel="stylesheet" href="style/navbar.css" />
 
 		<link rel="icon" href="images/logo.svg" />
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-		<script src="script.js"></script>
 	</head>
 	<body>
 		<header>
-			<nav class="navbar navbar-expand-md navbar-light fixed-top">
+			<nav class="navbar navbar-expand-md navbar-light fixed-top" 
+			data-aos="fade-down"
+			data-aos-offset="0"
+			data-aos-duration="1200"
+			>
 				<div class="container">
 					<a href="index.html">
 						<img class="ml-3 mt-1" src="images/logo-rest.svg" width="200" />
@@ -97,29 +100,52 @@
 
 		<section class="number">
 			<div class="color-image">
-				<div class="content">
-					<h4 class="number-title1">
+				<div class="test content show-animate">
+					<h4 class="number-title1" data-aos="zoom-in-down"
+					data-aos-offset="0"
+					data-aos-duration="800"
+					>
 						Sabor tão bom que você vai tentar comer com os olhos
 					</h4>
-					<h4 class="number-title2">Venha nos conhecer já.</h4>
-					<a
-						href="https://api.whatsapp.com/send?phone=NUMERO_DO_TELEFONE"
-						target="_blank"
-						class="btn btn-number"
-						>Acesse nosso whatsapp
-					</a>
+
+					<h4 class="number-title2" data-aos="zoom-in-down"
+					data-aos-offset="0"
+					data-aos-duration="800"
+					>
+						Venha nos conhecer já.
+					</h4>
+					<div data-aos="zoom-in-up"
+					data-aos-offset="0"
+					data-aos-duration="1600">
+						<a
+							href="https://api.whatsapp.com/send?phone=NUMERO_DO_TELEFONE"
+							target="_blank"
+							class="btn btn-number" 
+							>
+								Acesse nosso whatsapp
+						</a>
+					</div>
 				</div>
 			</div>
 		</section>
 
 		<section id="plate">
 			<div class="container">
-				<h2 class="plate-title1">Pequenos petiscos</h2>
-				<h4 class="plate-subtitle1">As melhores entradas para seu paladar.</h4>
+				<h2 class="plate-title1" 
+				data-aos="fade-down"
+				data-aos-offset="300"
+				data-aos-duration="0">Pequenos petiscos</h2>
+				<h4 class="plate-subtitle1" 
+				data-aos="fade-down"
+				data-aos-offset="300"
+				data-aos-duration="500">As melhores entradas para seu paladar.</h4>
 				<div id="about" class="section">
 					<div class="container">
 						<div class="information row">
-							<div class="col-md-6">
+							<div class="col-md-6"  
+							data-aos="fade-right"
+							data-aos-offset="300"
+							data-aos-duration="500">
 								<div class="row">
 									<div class="col-md-12">
 										<img
@@ -130,7 +156,10 @@
 									</div>
 								</div>
 							</div>
-							<div class="font col-md-6">
+							<div class="font col-md-6" 
+							data-aos="fade-left"
+							data-aos-offset="300"
+							data-aos-duration="500">
 								<h2 class="section-title1 col">SALADA DE MAMÃO VERDE $12</h2>
 								<h2 class="section-title2 col">camarão, pimentão e limão</h2>
 
@@ -182,14 +211,24 @@
 			</div>
 
 			<div class="container">
-				<h2 class="plate-title2">Pratos quentes</h2>
-				<h4 class="plate-subtitle2">
+				<h2 class="plate-title2" 
+				data-aos="fade-down"
+				data-aos-offset="300"
+				data-aos-duration="0"
+				>Pratos quentes</h2>
+				<h4 class="plate-subtitle2" 
+				data-aos="fade-down"
+				data-aos-offset="300"
+				data-aos-duration="500">
 					Comida preparada e feita na hora com muito carinho.
 				</h4>
-				<div id="about" class="section">
+				<div id="about" class="section" >
 					<div class="container">
 						<div class="information row">
-							<div class="font col-md-6">
+							<div class="font col-md-6" 
+							data-aos="fade-right"
+							data-aos-offset="300"
+							data-aos-duration="500">
 								<h2 class="section-title1 col">FRANGO COM GERGELIM $12</h2>
 								<h2 class="section-title2 col">
 									Beringela chinesa, glacê de sola com pimenta doce, cebola
@@ -227,7 +266,10 @@
 									Pimenta, cebola, broto de bambu, aipo
 								</h2>
 							</div>
-							<div class="col-md-6">
+							<div class="col-md-6" 
+							data-aos="fade-left"
+							data-aos-offset="300"
+							data-aos-duration="500">
 								<div class="row">
 									<div class="col-md-12">
 										<img
@@ -252,15 +294,24 @@
 			</div>
 
 			<div class="container">
-				<h2 class="plate-title2">Sobremesa</h2>
-				<h4 class="plate-subtitle2">
+				<h2 class="plate-title2" 
+				data-aos="fade-down"
+				data-aos-offset="300"
+				data-aos-duration="0">Sobremesa</h2>
+				<h4 class="plate-subtitle2" 
+				data-aos="fade-down"
+				data-aos-offset="300"
+				data-aos-duration="500">
 					Sobremesas que com certeza você não vai deixar pra depois,
 					experimente!
 				</h4>
 				<div id="about" class="section">
 					<div class="container">
 						<div class="information row">
-							<div class="col-md-6">
+							<div class="col-md-6" 
+							data-aos="fade-right"
+							data-aos-offset="300"
+							data-aos-duration="500">
 								<div class="row">
 									<div class="col-md-12">
 										<img
@@ -271,7 +322,10 @@
 									</div>
 								</div>
 							</div>
-							<div class="font col-md-6">
+							<div class="font col-md-6" 
+							data-aos="fade-left"
+							data-aos-offset="300"
+							data-aos-duration="500">
 								<h2 class="section-title1 col">PRATO DE SOBREMESA $12</h2>
 								<h2 class="section-title2 col">
 									Seleção de doces do chef.<br />
@@ -321,15 +375,24 @@
 			</div>
 
 			<div class="container">
-				<h2 class="plate-title2">Chá</h2>
-				<h4 class="plate-subtitle2">
+				<h2 class="plate-title2" 
+				data-aos="fade-down"
+				data-aos-offset="300"
+				data-aos-duration="0">Chá</h2>
+				<h4 class="plate-subtitle2" 
+				data-aos="fade-down"
+				data-aos-offset="300"
+				data-aos-duration="500">
 					Nada melhor que o relaxante frescor de um chá, seja ele gelado ou
 					quente.
 				</h4>
 				<div id="about" class="section">
 					<div class="container">
 						<div class="information row">
-							<div class="font col-md-6">
+							<div class="font col-md-6" 
+							data-aos="fade-right"
+							data-aos-offset="300"
+							data-aos-duration="500">
 								<h2 class="section-title1 col">TI QUAN YIN $4</h2>
 								<h2 class="section-title2 col">
 									Aroma intenso, profundidade e frutado - classificado como um
@@ -368,7 +431,10 @@
 									um paladar naturalmente doce, vai bem com comidas picantes
 								</h2>
 							</div>
-							<div class="col-md-6">
+							<div class="col-md-6" 
+							data-aos="fade-left"
+							data-aos-offset="300"
+							data-aos-duration="500">
 								<div class="row">
 									<div class="col-md-12">
 										<img
@@ -388,7 +454,10 @@
 		<section id="about-us" class="section">
 			<div class="container">
 				<div class="information row">
-					<div class="col-md-6">
+					<div class="col-md-6" 
+					data-aos="fade-left"
+					data-aos-offset="250"
+					data-aos-duration="500">
 						<div class="row">
 							<div class="col-md-12 text-center">
 								<h2>Nosso contato</h2>
@@ -405,7 +474,10 @@
 							</div>
 						</div>
 					</div>
-					<div class="font col-md-6">
+					<div class="font col-md-6" 
+					data-aos="fade-right"
+					data-aos-offset="400"
+					data-aos-duration="500">
 						<h2 class="section-title1 col">
 							<i class="fas fa-share"></i> E-MAIL
 						</h2>
@@ -433,5 +505,8 @@
 				</div>
 			</div>
 		</section>
+		<script>
+			AOS.init();
+		</script>
 	</body>
 </html>
