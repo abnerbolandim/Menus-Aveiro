@@ -1,7 +1,4 @@
-html,
-body,
-#home {
-	height: 100%;
+html body{
 	overflow-x: hidden;
 }
 
