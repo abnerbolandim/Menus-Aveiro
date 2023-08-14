@@ -50,10 +50,10 @@
 	border-radius: 20px;
 	font-weight: lighter;
 	font-size: 22px;
+	transition: 0.2s;
 }
 
 .btn-number:hover {
-	color: #f8f4ec;
-	transition: 0.2s ease-in-out;
+	color: #dbf0dd;
 	transform: scale(1.08);
 }
