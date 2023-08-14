@@ -8,3 +8,22 @@ $(function () {
 		}
 	});
 });
+
+// let tests = document.querySelectorAll('.test');
+
+// window.onscroll = () => {
+// 	tests.forEach(sec =>{
+// 		let top = window.scrollY;
+// 		let offset = sec.offsetTop - 150;
+// 		let height = sec.offsetHeight;
+
+// 		if(top >= offset && top < offset + height){
+// 			sec.classList.add('show-animate');
+// 			console.log ('aq');
+// 		} 
+// 		else{
+// 			sec.classList.remove('show-animate');
+// 		}
+// 	})
+// }
+
