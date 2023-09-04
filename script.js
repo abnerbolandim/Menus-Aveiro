@@ -9,6 +9,17 @@ $(function () {
 	});
 });
 
+$(document).on("click", function(event){
+    var navbar = $(".navbar-collapse");
+    var navbarButton = $(".navbar-toggler");
+
+    if (!navbar.is(event.target) && !navbarButton.is(event.target) && navbar.is(":visible")) {
+        navbar.collapse("hide");
+    }
+});
+
+
+
 // let tests = document.querySelectorAll('.test');
 
 // window.onscroll = () => {
