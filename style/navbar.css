@@ -1,4 +1,4 @@
-html body{
+html, body{
 	overflow-x: hidden;
 }
 
@@ -11,9 +11,9 @@ nav {
 	background-color: #f8f4ec;
 }
 
-.navbar-collapse {
+/* .navbar-collapse {
 	display: none;
-}
+} */
 
 .navbar-collapse.show {
 	display: block;
@@ -41,7 +41,7 @@ nav.navbar-transparente {
 .navbar-light .navbar-nav .nav-contact:hover {
 	color: #1ad03f;
 	transition: 0.3s;
-	transform: scale(1.1);
+	transform: scale(1.13);
 }
 
 .navbar-light .navbar-toggler {
